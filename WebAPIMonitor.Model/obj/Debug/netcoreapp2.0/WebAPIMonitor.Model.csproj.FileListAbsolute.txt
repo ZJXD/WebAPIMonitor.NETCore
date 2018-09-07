@@ -1,0 +1,9 @@
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\bin\Debug\netcoreapp2.0\WebAPIMonitor.Model.deps.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\bin\Debug\netcoreapp2.0\WebAPIMonitor.Model.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\bin\Debug\netcoreapp2.0\WebAPIMonitor.Model.pdb
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\obj\Debug\netcoreapp2.0\WebAPIMonitor.Model.csprojResolveAssemblyReference.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\obj\Debug\netcoreapp2.0\WebAPIMonitor.Model.csproj.CoreCompileInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\obj\Debug\netcoreapp2.0\WebAPIMonitor.Model.AssemblyInfoInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\obj\Debug\netcoreapp2.0\WebAPIMonitor.Model.AssemblyInfo.cs
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\obj\Debug\netcoreapp2.0\WebAPIMonitor.Model.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Model\obj\Debug\netcoreapp2.0\WebAPIMonitor.Model.pdb
