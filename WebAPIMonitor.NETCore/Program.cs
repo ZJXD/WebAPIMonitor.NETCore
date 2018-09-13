@@ -19,7 +19,8 @@ namespace WebAPIMonitor.NETCore
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
+                .UseStartup<Startup>()     // 注册启动类
+                                           //.UseUrls("http://localhost:8000/", "http://localhost:9000") // 指定监听地址
                 .Build();
     }
 }

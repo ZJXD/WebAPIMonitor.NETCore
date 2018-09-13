@@ -26,6 +26,7 @@ namespace WebAPIMonitor.NETCore
             services.AddMvc()
                 .AddJsonOptions(json =>
                 {
+                    // 返回数据中时间数据格式化
                     json.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
                 });
         }
@@ -38,6 +39,7 @@ namespace WebAPIMonitor.NETCore
                 app.UseDeveloperExceptionPage();
             }
 
+            // 定义路由
             app.UseMvc(config =>
             {
                 config.MapRoute(
