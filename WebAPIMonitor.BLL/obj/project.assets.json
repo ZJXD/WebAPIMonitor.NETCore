@@ -197,14 +197,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "WebAPIMonitor.Model/1.0.0": {
+      "WebAPIMonitor.NETCore.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
-          "bin/placeholder/WebAPIMonitor.Model.dll": {}
+          "bin/placeholder/WebAPIMonitor.NETCore.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/WebAPIMonitor.Model.dll": {}
+          "bin/placeholder/WebAPIMonitor.NETCore.Models.dll": {}
         }
       }
     }
@@ -667,16 +667,16 @@
         "netstandard.library.nuspec"
       ]
     },
-    "WebAPIMonitor.Model/1.0.0": {
+    "WebAPIMonitor.NETCore.Models/1.0.0": {
       "type": "project",
-      "path": "../WebAPIMonitor.Model/WebAPIMonitor.Model.csproj",
-      "msbuildProject": "../WebAPIMonitor.Model/WebAPIMonitor.Model.csproj"
+      "path": "../WebAPIMonitor.NETCore.Models/WebAPIMonitor.NETCore.Models.csproj",
+      "msbuildProject": "../WebAPIMonitor.NETCore.Models/WebAPIMonitor.NETCore.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
-      "WebAPIMonitor.Model >= 1.0.0"
+      "WebAPIMonitor.NETCore.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -709,8 +709,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.Model\\WebAPIMonitor.Model.csproj": {
-              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.Model\\WebAPIMonitor.Model.csproj"
+            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj": {
+              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj"
             }
           }
         }
@@ -738,5 +738,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "项目 WebAPIMonitor.NETCore.Models 与 netcoreapp2.0 (.NETCoreApp,Version=v2.0) 不兼容。 项目 WebAPIMonitor.NETCore.Models 支持: netcoreapp2.1 (.NETCoreApp,Version=v2.1)",
+      "libraryId": "WebAPIMonitor.NETCore.Models",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

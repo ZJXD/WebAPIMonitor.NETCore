@@ -34,6 +34,8 @@ namespace WebAPIMonitor.NETCore
             // 配置跨域处理(2)
             //services.AddCors();
 
+            //services.AddDbContext<TodoContext>
+
             services.AddMvc()
                 .AddJsonOptions(json =>
                 {
