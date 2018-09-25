@@ -3,7 +3,6 @@ D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\bin\Debug\netcoreapp2.
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\bin\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.runtimeconfig.dev.json
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\bin\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.dll
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\bin\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.pdb
-D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\obj\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.csprojResolveAssemblyReference.cache
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\obj\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.csproj.CoreCompileInputs.cache
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\obj\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.AssemblyInfoInputs.cache
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\obj\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.AssemblyInfo.cs
@@ -14,3 +13,4 @@ D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\bin\Debug\netcoreapp2.
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\bin\Debug\netcoreapp2.0\WebAPIMonitor.BLL.pdb
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\bin\Debug\netcoreapp2.0\WebAPIMonitor.Model.pdb
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\obj\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.csproj.CopyComplete
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore\obj\Debug\netcoreapp2.0\WebAPIMonitor.NETCore.csprojAssemblyReference.cache
