@@ -71,6 +71,9 @@ namespace WebAPIMonitor.NETCore.WebAPI
             //.AllowAnyMethod()
             //.AllowCredentials());
 
+            // 配置项目提供静态文件并启用默认文件映射
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc(config =>
             {
