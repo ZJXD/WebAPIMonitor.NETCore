@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using WebAPIMonitor.Model;
+using WebAPIMonitor.NETCore.Models;
 
 namespace WebAPIMonitor.BLL
 {
