@@ -680,23 +680,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MI-DIT\\.nuget\\packages\\": {},
+    "C:\\Users\\ZDL\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.Test\\WebAPIMonitor.Test.csproj",
+      "projectUniqueName": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.Test\\WebAPIMonitor.Test.csproj",
       "projectName": "WebAPIMonitor.Test",
-      "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.Test\\WebAPIMonitor.Test.csproj",
-      "packagesPath": "C:\\Users\\MI-DIT\\.nuget\\packages\\",
-      "outputPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.Test\\obj\\",
+      "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.Test\\WebAPIMonitor.Test.csproj",
+      "packagesPath": "C:\\Users\\ZDL\\.nuget\\packages\\",
+      "outputPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MI-DIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ZDL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -709,8 +709,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\FileManager\\FileManager.csproj": {
-              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\FileManager\\FileManager.csproj"
+            "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\FileManager\\FileManager.csproj": {
+              "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\FileManager\\FileManager.csproj"
             }
           }
         }

@@ -7493,6 +7493,8 @@
       "path": "newtonsoft.json/11.0.2",
       "files": [
         "LICENSE.md",
+        "Newtonsoft.Json.11.0.2.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -7510,9 +7512,7 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml"
       ]
     },
     "Newtonsoft.Json.Bson/1.0.1": {
@@ -10276,6 +10276,8 @@
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
+        "System.Runtime.4.3.0.nupkg.sha512",
+        "System.Runtime.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10356,9 +10358,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.runtime.4.3.0.nupkg.sha512",
-        "system.runtime.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
@@ -12253,23 +12253,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MI-DIT\\.nuget\\packages\\": {},
+    "C:\\Users\\ZDL\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
+      "projectUniqueName": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
       "projectName": "WebAPIMonitor.NETCore.WebAPI",
-      "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\MI-DIT\\.nuget\\packages\\",
-      "outputPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\obj\\",
+      "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\ZDL\\.nuget\\packages\\",
+      "outputPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MI-DIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ZDL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12282,11 +12282,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj": {
-              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj"
+            "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj": {
+              "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj"
             },
-            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj": {
-              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj"
+            "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj": {
+              "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj"
             }
           }
         }

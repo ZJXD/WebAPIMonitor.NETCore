@@ -17,3 +17,22 @@ D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netco
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.pdb
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.BLL.dll
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.BLL.pdb
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.deps.json
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.runtimeconfig.json
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.runtimeconfig.dev.json
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.pdb
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.BLL.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.Models.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.BLL.pdb
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.Models.pdb
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.csprojAssemblyReference.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.csproj.CoreCompileInputs.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.RazorAssemblyInfo.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.RazorAssemblyInfo.cs
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.AssemblyInfoInputs.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.AssemblyInfo.cs
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.RazorTargetAssemblyInfo.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.csproj.CopyComplete
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.WebAPI\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.WebAPI.pdb
