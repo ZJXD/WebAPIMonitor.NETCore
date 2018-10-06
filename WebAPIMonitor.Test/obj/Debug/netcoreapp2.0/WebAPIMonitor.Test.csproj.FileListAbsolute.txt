@@ -24,3 +24,29 @@ D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\W
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csproj.CopyComplete
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.dll
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.pdb
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\WebAPIMonitor.Test.deps.json
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\WebAPIMonitor.Test.runtimeconfig.json
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\WebAPIMonitor.Test.runtimeconfig.dev.json
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\WebAPIMonitor.Test.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\WebAPIMonitor.Test.pdb
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\FileManager.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileProviders.Physical.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Primitives.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\FileManager.pdb
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.xml
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileProviders.Physical.xml
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileSystemGlobbing.xml
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Primitives.xml
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csprojAssemblyReference.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csproj.CoreCompileInputs.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.AssemblyInfoInputs.cache
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.AssemblyInfo.cs
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csproj.CopyComplete
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.dll
+F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.pdb

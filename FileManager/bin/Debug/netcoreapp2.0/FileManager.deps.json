@@ -16,7 +16,10 @@
       },
       "Microsoft.Extensions.FileProviders.Abstractions/2.0.1.0": {
         "runtime": {
-          "Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.18051"
+          }
         }
       }
     }

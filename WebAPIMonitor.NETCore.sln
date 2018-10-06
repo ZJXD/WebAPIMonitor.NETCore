@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIMonitor.Test", "WebAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIMonitor.NETCore.Models", "WebAPIMonitor.NETCore.Models\WebAPIMonitor.NETCore.Models.csproj", "{4104C0F9-FB63-40C1-A05E-1E8DB3B9AFEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIMonitor.NETCore.BLL", "WebAPIMonitor.NETCore.BLL\WebAPIMonitor.NETCore.BLL.csproj", "{EE46CAE9-3C3F-40E5-93D9-A130ACABC6F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIMonitor.NETCore.BLL", "WebAPIMonitor.NETCore.BLL\WebAPIMonitor.NETCore.BLL.csproj", "{EE46CAE9-3C3F-40E5-93D9-A130ACABC6F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIMonitor.NETCore.WebAPI", "WebAPIMonitor.NETCore.WebAPI\WebAPIMonitor.NETCore.WebAPI.csproj", "{74BF6E81-099C-4A1B-8C5A-EFECBCC6A594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIMonitor.NETCore.WebAPI", "WebAPIMonitor.NETCore.WebAPI\WebAPIMonitor.NETCore.WebAPI.csproj", "{74BF6E81-099C-4A1B-8C5A-EFECBCC6A594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{88A4E445-7EAD-4224-9EF0-5926B32D9D25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{74BF6E81-099C-4A1B-8C5A-EFECBCC6A594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74BF6E81-099C-4A1B-8C5A-EFECBCC6A594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74BF6E81-099C-4A1B-8C5A-EFECBCC6A594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A4E445-7EAD-4224-9EF0-5926B32D9D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A4E445-7EAD-4224-9EF0-5926B32D9D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A4E445-7EAD-4224-9EF0-5926B32D9D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A4E445-7EAD-4224-9EF0-5926B32D9D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
