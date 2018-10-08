@@ -17,7 +17,6 @@ D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\M
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileProviders.Physical.xml
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.FileSystemGlobbing.xml
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Primitives.xml
-D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csprojResolveAssemblyReference.cache
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csproj.CoreCompileInputs.cache
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.AssemblyInfoInputs.cache
 D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.AssemblyInfo.cs
@@ -50,3 +49,4 @@ F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcore
 F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csproj.CopyComplete
 F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.dll
 F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.pdb
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.Test\obj\Debug\netcoreapp2.0\WebAPIMonitor.Test.csprojAssemblyReference.cache

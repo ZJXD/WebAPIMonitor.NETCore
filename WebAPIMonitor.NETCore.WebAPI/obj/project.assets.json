@@ -12253,23 +12253,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ZDL\\.nuget\\packages\\": {},
+    "C:\\Users\\MI-DIT\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
+      "projectUniqueName": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
       "projectName": "WebAPIMonitor.NETCore.WebAPI",
-      "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\ZDL\\.nuget\\packages\\",
-      "outputPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\obj\\",
+      "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\WebAPIMonitor.NETCore.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\MI-DIT\\.nuget\\packages\\",
+      "outputPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ZDL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MI-DIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12282,11 +12282,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj": {
-              "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj"
+            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj": {
+              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.BLL\\WebAPIMonitor.NETCore.BLL.csproj"
             },
-            "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj": {
-              "projectPath": "F:\\学习\\DotNET Core\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj"
+            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj": {
+              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj"
             }
           }
         }
