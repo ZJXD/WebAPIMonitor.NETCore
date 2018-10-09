@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using WebAPIMonitor.NETCore.Models;
 using Microsoft.EntityFrameworkCore;
+using WebAPIMonitor.NETCore.WebAPI.Hubs;
 
 namespace WebAPIMonitor.NETCore.WebAPI
 {
@@ -48,6 +49,8 @@ namespace WebAPIMonitor.NETCore.WebAPI
                     // 返回数据中时间数据格式化
                     json.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
                 });
+
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -75,6 +78,12 @@ namespace WebAPIMonitor.NETCore.WebAPI
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseHttpsRedirection();
+
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<ChatHub>("/chatHub");
+            });
+
             app.UseMvc(config =>
             {
                 config.MapRoute(

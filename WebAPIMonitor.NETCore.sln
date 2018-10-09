@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIMonitor.NETCore.BLL",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIMonitor.NETCore.WebAPI", "WebAPIMonitor.NETCore.WebAPI\WebAPIMonitor.NETCore.WebAPI.csproj", "{74BF6E81-099C-4A1B-8C5A-EFECBCC6A594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{88A4E445-7EAD-4224-9EF0-5926B32D9D25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{88A4E445-7EAD-4224-9EF0-5926B32D9D25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
