@@ -1,0 +1,11 @@
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.deps.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.runtimeconfig.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.runtimeconfig.dev.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.csproj.CoreCompileInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.AssemblyInfoInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.AssemblyInfo.cs
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.csprojAssemblyReference.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.pdb
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.KafkaTest\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.KafkaTest.pdb

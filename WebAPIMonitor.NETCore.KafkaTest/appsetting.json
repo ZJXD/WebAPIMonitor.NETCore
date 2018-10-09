@@ -1,0 +1,4 @@
+{
+  "topicName": "CoreTest",
+  "servers": "localhost:9092"
+}
