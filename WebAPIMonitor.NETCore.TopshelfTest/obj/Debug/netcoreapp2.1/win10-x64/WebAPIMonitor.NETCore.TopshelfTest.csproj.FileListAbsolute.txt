@@ -1,0 +1,13 @@
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\hostpolicy.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\hostfxr.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.exe
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.deps.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.runtimeconfig.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.runtimeconfig.dev.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\bin\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.pdb
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\obj\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.csproj.CoreCompileInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\obj\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.AssemblyInfoInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\obj\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.AssemblyInfo.cs
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\obj\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.TopshelfTest\obj\Debug\netcoreapp2.1\win10-x64\WebAPIMonitor.NETCore.TopshelfTest.pdb
