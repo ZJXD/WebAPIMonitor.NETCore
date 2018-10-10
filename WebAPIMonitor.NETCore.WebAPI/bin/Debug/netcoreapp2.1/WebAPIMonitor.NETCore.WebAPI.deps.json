@@ -516,6 +516,7 @@
       },
       "WebAPIMonitor.NETCore.BLL/1.0.0": {
         "dependencies": {
+          "WebAPIMonitor.NETCore.IBLL": "1.0.0",
           "WebAPIMonitor.NETCore.Models": "1.0.0"
         },
         "runtime": {
@@ -523,6 +524,17 @@
         },
         "compile": {
           "WebAPIMonitor.NETCore.BLL.dll": {}
+        }
+      },
+      "WebAPIMonitor.NETCore.IBLL/1.0.0": {
+        "dependencies": {
+          "WebAPIMonitor.NETCore.Models": "1.0.0"
+        },
+        "runtime": {
+          "WebAPIMonitor.NETCore.IBLL.dll": {}
+        },
+        "compile": {
+          "WebAPIMonitor.NETCore.IBLL.dll": {}
         }
       },
       "WebAPIMonitor.NETCore.Models/1.0.0": {
@@ -3660,6 +3672,11 @@
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
     "WebAPIMonitor.NETCore.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebAPIMonitor.NETCore.IBLL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

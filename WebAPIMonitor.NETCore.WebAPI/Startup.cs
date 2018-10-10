@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using WebAPIMonitor.NETCore.Models;
 using Microsoft.EntityFrameworkCore;
 using WebAPIMonitor.NETCore.WebAPI.Hubs;
+using System.Reflection;
 
 namespace WebAPIMonitor.NETCore.WebAPI
 {
@@ -41,6 +42,15 @@ namespace WebAPIMonitor.NETCore.WebAPI
 
             services.AddDbContext<TodoContext>(opt =>
             opt.UseInMemoryDatabase("TodoList"));
+
+            //集中注册服务
+            foreach (var item in GetClassName("WebAPIMonitor.NETCore.BLL"))
+            {
+                foreach (var typeArray in item.Value)
+                {
+                    services.AddScoped(typeArray, item.Key);
+                }
+            }
 
             // services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddMvc()
@@ -92,6 +102,28 @@ namespace WebAPIMonitor.NETCore.WebAPI
                 //defaults: new { id = RouteParameter.Optional }
                 );
             });
+        }
+
+        /// <summary>  
+        /// 获取程序集中的实现类对应的多个接口
+        /// </summary>  
+        /// <param name="assemblyName">程序集</param>
+        public Dictionary<Type, Type[]> GetClassName(string assemblyName)
+        {
+            if (!string.IsNullOrEmpty(assemblyName))
+            {
+                Assembly assembly = Assembly.Load(assemblyName);
+                List<Type> ts = assembly.GetTypes().ToList();
+
+                var result = new Dictionary<Type, Type[]>();
+                foreach (var item in ts.Where(s => !s.IsInterface))
+                {
+                    var interfaceType = item.GetInterfaces();
+                    result.Add(item, interfaceType);
+                }
+                return result;
+            }
+            return new Dictionary<Type, Type[]>();
         }
     }
 }

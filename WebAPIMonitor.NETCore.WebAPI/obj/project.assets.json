@@ -4620,6 +4620,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "WebAPIMonitor.NETCore.IBLL": "1.0.0",
           "WebAPIMonitor.NETCore.Models": "1.0.0"
         },
         "compile": {
@@ -4627,6 +4628,19 @@
         },
         "runtime": {
           "bin/placeholder/WebAPIMonitor.NETCore.BLL.dll": {}
+        }
+      },
+      "WebAPIMonitor.NETCore.IBLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "WebAPIMonitor.NETCore.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebAPIMonitor.NETCore.IBLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIMonitor.NETCore.IBLL.dll": {}
         }
       },
       "WebAPIMonitor.NETCore.Models/1.0.0": {
@@ -12236,6 +12250,11 @@
       "type": "project",
       "path": "../WebAPIMonitor.NETCore.BLL/WebAPIMonitor.NETCore.BLL.csproj",
       "msbuildProject": "../WebAPIMonitor.NETCore.BLL/WebAPIMonitor.NETCore.BLL.csproj"
+    },
+    "WebAPIMonitor.NETCore.IBLL/1.0.0": {
+      "type": "project",
+      "path": "../WebAPIMonitor.NETCore.IBLL/WebAPIMonitor.NETCore.IBLL.csproj",
+      "msbuildProject": "../WebAPIMonitor.NETCore.IBLL/WebAPIMonitor.NETCore.IBLL.csproj"
     },
     "WebAPIMonitor.NETCore.Models/1.0.0": {
       "type": "project",

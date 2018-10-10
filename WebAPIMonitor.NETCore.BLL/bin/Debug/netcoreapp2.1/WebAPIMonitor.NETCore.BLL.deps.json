@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v2.1": {
       "WebAPIMonitor.NETCore.BLL/1.0.0": {
         "dependencies": {
+          "WebAPIMonitor.NETCore.IBLL": "1.0.0",
           "WebAPIMonitor.NETCore.Models": "1.0.0"
         },
         "runtime": {
           "WebAPIMonitor.NETCore.BLL.dll": {}
+        }
+      },
+      "WebAPIMonitor.NETCore.IBLL/1.0.0": {
+        "dependencies": {
+          "WebAPIMonitor.NETCore.Models": "1.0.0"
+        },
+        "runtime": {
+          "WebAPIMonitor.NETCore.IBLL.dll": {}
         }
       },
       "WebAPIMonitor.NETCore.Models/1.0.0": {
@@ -34,6 +43,11 @@
   },
   "libraries": {
     "WebAPIMonitor.NETCore.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebAPIMonitor.NETCore.IBLL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

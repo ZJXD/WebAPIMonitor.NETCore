@@ -26,3 +26,5 @@ F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.BLL\obj\Debug\
 F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.BLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.BLL.csproj.CopyComplete
 F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.BLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.BLL.dll
 F:\学习\DotNET Core\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.BLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.BLL.pdb
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.BLL\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.BLL\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.pdb

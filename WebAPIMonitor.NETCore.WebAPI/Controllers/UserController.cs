@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebAPIMonitor.NETCore.BLL;
+using WebAPIMonitor.NETCore.IBLL;
 using WebAPIMonitor.NETCore.Models;
 
 namespace WebAPIMonitor.NETCore.WebAPI.Controllers
@@ -13,7 +13,12 @@ namespace WebAPIMonitor.NETCore.WebAPI.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly UserBLL userBLL = new UserBLL();
+        private readonly IUserBLL userBLL;
+
+        public UserController(IUserBLL userBLL)
+        {
+            this.userBLL = userBLL;
+        }
 
         [HttpGet]
         public UserDTO GetUser()

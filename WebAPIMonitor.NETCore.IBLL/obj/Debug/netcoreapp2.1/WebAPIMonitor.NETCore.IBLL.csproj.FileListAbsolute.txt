@@ -1,0 +1,14 @@
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.deps.json
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.pdb
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.Models.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\bin\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.Models.pdb
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.csprojAssemblyReference.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.csproj.CoreCompileInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.AssemblyInfoInputs.cache
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.AssemblyInfo.cs
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.csproj.CopyComplete
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.dll
+D:\学习\NET\WebAPIMonitor.NETCore\WebAPIMonitor.NETCore.IBLL\obj\Debug\netcoreapp2.1\WebAPIMonitor.NETCore.IBLL.pdb

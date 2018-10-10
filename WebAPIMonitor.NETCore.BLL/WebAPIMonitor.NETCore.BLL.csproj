@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebAPIMonitor.NETCore.IBLL\WebAPIMonitor.NETCore.IBLL.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.Models\WebAPIMonitor.NETCore.Models.csproj" />
   </ItemGroup>
 

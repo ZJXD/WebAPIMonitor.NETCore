@@ -1,9 +1,10 @@
 ﻿using System;
+using WebAPIMonitor.NETCore.IBLL;
 using WebAPIMonitor.NETCore.Models;
 
 namespace WebAPIMonitor.NETCore.BLL
 {
-    public class UserBLL
+    public class UserBLL:IUserBLL
     {
         public UserDTO GetUser()
         {

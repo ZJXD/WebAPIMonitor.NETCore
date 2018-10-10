@@ -208,6 +208,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "WebAPIMonitor.NETCore.IBLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "WebAPIMonitor.NETCore.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebAPIMonitor.NETCore.IBLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebAPIMonitor.NETCore.IBLL.dll": {}
+        }
+      },
       "WebAPIMonitor.NETCore.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -684,6 +697,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "WebAPIMonitor.NETCore.IBLL/1.0.0": {
+      "type": "project",
+      "path": "../WebAPIMonitor.NETCore.IBLL/WebAPIMonitor.NETCore.IBLL.csproj",
+      "msbuildProject": "../WebAPIMonitor.NETCore.IBLL/WebAPIMonitor.NETCore.IBLL.csproj"
+    },
     "WebAPIMonitor.NETCore.Models/1.0.0": {
       "type": "project",
       "path": "../WebAPIMonitor.NETCore.Models/WebAPIMonitor.NETCore.Models.csproj",
@@ -693,6 +711,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
+      "WebAPIMonitor.NETCore.IBLL >= 1.0.0",
       "WebAPIMonitor.NETCore.Models >= 1.0.0"
     ]
   },
@@ -726,6 +745,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.IBLL\\WebAPIMonitor.NETCore.IBLL.csproj": {
+              "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.IBLL\\WebAPIMonitor.NETCore.IBLL.csproj"
+            },
             "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj": {
               "projectPath": "D:\\学习\\NET\\WebAPIMonitor.NETCore\\WebAPIMonitor.NETCore.Models\\WebAPIMonitor.NETCore.Models.csproj"
             }
