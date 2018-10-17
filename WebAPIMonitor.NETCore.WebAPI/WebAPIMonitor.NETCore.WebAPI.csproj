@@ -5,11 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.12" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataBase\DataBase.csproj" />
+    <ProjectReference Include="..\Mapping\Mapping.csproj" />
+    <ProjectReference Include="..\Modules\Modules.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.BLL\WebAPIMonitor.NETCore.BLL.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.Models\WebAPIMonitor.NETCore.Models.csproj" />
   </ItemGroup>

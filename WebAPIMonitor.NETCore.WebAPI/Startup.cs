@@ -14,6 +14,7 @@ using WebAPIMonitor.NETCore.Models;
 using Microsoft.EntityFrameworkCore;
 using WebAPIMonitor.NETCore.WebAPI.Hubs;
 using System.Reflection;
+using DataBase.MySQL;
 
 namespace WebAPIMonitor.NETCore.WebAPI
 {
@@ -43,8 +44,15 @@ namespace WebAPIMonitor.NETCore.WebAPI
             services.AddDbContext<TodoContext>(opt =>
             opt.UseInMemoryDatabase("TodoList"));
 
+            //services.AddDbContext<LogContext>(opt => opt.UseMySQL(Configuration.GetConnectionString("LogContext")));
+            //services.Add(new ServiceDescriptor(typeof(LogContext), new LogContext(Configuration.GetConnectionString("LogContext"))));
+
+            //services.Add(new ServiceDescriptor(typeof(MySQLDatabase), new MySQLDatabase(Configuration.GetConnectionString("LogContext"))));
+            services.AddScoped(_ => new MySQLDatabase(Configuration.GetConnectionString("LogContext")));
+
             //集中注册服务
-            foreach (var item in GetClassName("WebAPIMonitor.NETCore.BLL"))
+            Dictionary<Type, Type[]> classNames = GetClassName(new string[] { "WebAPIMonitor.NETCore.BLL" });
+            foreach (var item in classNames)
             {
                 foreach (var typeArray in item.Value)
                 {
@@ -107,23 +115,27 @@ namespace WebAPIMonitor.NETCore.WebAPI
         /// <summary>  
         /// 获取程序集中的实现类对应的多个接口
         /// </summary>  
-        /// <param name="assemblyName">程序集</param>
-        public Dictionary<Type, Type[]> GetClassName(string assemblyName)
+        /// <param name="assemblyNames">程序集</param>
+        public Dictionary<Type, Type[]> GetClassName(string[] assemblyNames)
         {
-            if (!string.IsNullOrEmpty(assemblyName))
-            {
-                Assembly assembly = Assembly.Load(assemblyName);
-                List<Type> ts = assembly.GetTypes().ToList();
+            var result = new Dictionary<Type, Type[]>();
 
-                var result = new Dictionary<Type, Type[]>();
-                foreach (var item in ts.Where(s => !s.IsInterface))
+            for (int i = 0; i < assemblyNames.Length; i++)
+            {
+                string assemblyName = assemblyNames[i];
+                if (!string.IsNullOrEmpty(assemblyName))
                 {
-                    var interfaceType = item.GetInterfaces();
-                    result.Add(item, interfaceType);
+                    Assembly assembly = Assembly.Load(assemblyName);
+                    List<Type> ts = assembly.GetTypes().ToList();
+
+                    foreach (var item in ts.Where(s => !s.IsInterface))
+                    {
+                        var interfaceType = item.GetInterfaces();
+                        result.Add(item, interfaceType);
+                    }
                 }
-                return result;
             }
-            return new Dictionary<Type, Type[]>();
+            return result;
         }
     }
 }
