@@ -7,6 +7,7 @@ using FileManager;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics;
 using Microsoft.Extensions.Primitives;
+using Util.GeoTool;
 
 namespace WebAPIMonitor.Test
 {
@@ -18,7 +19,7 @@ namespace WebAPIMonitor.Test
 
             //Console.Read();
 
-            // 输出目录结构
+            #region 输出目录结构
 
             //IServiceCollection services = new ServiceCollection();
             //services.AddSingleton<IFileProvider>(new PhysicalFileProvider(@"C:\DIT.PROD.WGH.BacklogNumberService.Log"))
@@ -28,8 +29,9 @@ namespace WebAPIMonitor.Test
             //.ShowStructure((layer, name) => Console.WriteLine("{0}{1}", new string('\t', layer), name));
 
             //Console.Read();
+            #endregion
 
-            // 读取文件内容
+            #region 读取文件内容
             //     string content = new ServiceCollection()
             //.AddSingleton<IFileProvider>(new PhysicalFileProvider(@"C:\dit.prod.wgh.log\2018-08-27"))
             //.AddSingleton<IFileManager, FileManager.FileManager>()
@@ -38,15 +40,30 @@ namespace WebAPIMonitor.Test
             //.ReadAllTextAsync("Error.txt").Result;
 
             //     Debug.Assert(content == File.ReadAllText(@"C:\dit.prod.wgh.log\2018-08-27\Error.txt"));
+            #endregion
 
-            // 监控文件
-            IFileProvider fileProvider = new PhysicalFileProvider(@"D:\test");
-            ChangeToken.OnChange(() => fileProvider.Watch("data.txt"), () => LoadFileAsync(fileProvider));
-            while (true)
-            {
-                File.WriteAllText(@"D:\test\data.txt", DateTime.Now.ToString());
-                Task.Delay(50000).Wait();
-            }
+            #region 监控文件
+
+            //IFileProvider fileProvider = new PhysicalFileProvider(@"D:\test");
+            //ChangeToken.OnChange(() => fileProvider.Watch("data.txt"), () => LoadFileAsync(fileProvider));
+            //while (true)
+            //{
+            //    File.WriteAllText(@"D:\test\data.txt", DateTime.Now.ToString());
+            //    Task.Delay(50000).Wait();
+            //}
+            #endregion
+
+            #region 测试 Geohash
+
+            double lat = 30.2719106;
+            double lon = 120.1652627; //需要查询经纬度，目前指向的是BeiJing
+            string hash = GeohashHelper.Encode(lat, lon);
+            int geohashLen = 8;
+            /*获取中心点的geohash*/
+            String geohash = hash.Substring(0, geohashLen);
+            /*获取所有的矩形geohash， 一共是九个 ，包含中心点,打印顺序请参考参数*/
+            String[] result = GeohashHelper.getGeoHashExpand(geohash);
+            #endregion
         }
 
         //public void ConfigureServices(IServiceCollection ServiceCollection)
