@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics;
 using Microsoft.Extensions.Primitives;
 using Util.GeoTool;
+using System.Collections.Generic;
 
 namespace WebAPIMonitor.Test
 {
@@ -55,14 +56,35 @@ namespace WebAPIMonitor.Test
 
             #region 测试 Geohash
 
-            double lat = 30.2719106;
-            double lon = 120.1652627; //需要查询经纬度，目前指向的是BeiJing
-            string hash = GeohashHelper.Encode(lat, lon);
-            int geohashLen = 8;
-            /*获取中心点的geohash*/
-            String geohash = hash.Substring(0, geohashLen);
-            /*获取所有的矩形geohash， 一共是九个 ，包含中心点,打印顺序请参考参数*/
-            String[] result = GeohashHelper.getGeoHashExpand(geohash);
+            //double lat = 30.2719106;
+            //double lon = 120.1652627; //需要查询经纬度，目前指向的是BeiJing
+            //string hash = GeohashHelper.Encode(lat, lon);
+            //int geohashLen = 8;
+            ///*获取中心点的geohash*/
+            //String geohash = hash.Substring(0, geohashLen);
+            ///*获取所有的矩形geohash， 一共是九个 ，包含中心点,打印顺序请参考参数*/
+            //String[] result = GeohashHelper.getGeoHashExpand(geohash);
+            #endregion
+
+            #region 求一组点的最大距离和最小距离
+
+            List<Point> exportPoints = new List<Point>
+            {
+                new Point { Latitude = 30.2702291, Longitude = 120.1754093 },
+                new Point { Latitude = 30.3061665, Longitude = 120.1855999 },
+                new Point { Latitude = 30.3045579, Longitude = 120.182148 },
+                new Point { Latitude = 30.2980457, Longitude = 120.1750771 },
+                new Point { Latitude = 30.2966139, Longitude = 120.1749036 },
+                new Point { Latitude = 30.2987195, Longitude = 120.1633868 },
+                new Point { Latitude = 30.3006863, Longitude = 120.204085 },
+                new Point { Latitude = 30.2868773, Longitude = 120.1758432 }
+                //new Point { Latitude = 30.2702291, Longitude = 120.1754093 },
+                //new Point { Latitude = 30.2702291, Longitude = 120.1754093 }
+            };
+
+            SpaceCalculate spaceCalculate = new SpaceCalculate(exportPoints);
+            spaceCalculate.StartCalc();
+
             #endregion
         }
 

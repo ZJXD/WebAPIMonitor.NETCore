@@ -62,7 +62,7 @@ namespace WebAPIMonitor.NETCore.WebAPI.Controllers
             //List<application> aap = _context.Query<application>("select * from application").ToList();
 
             //List<application> list = this.mysqlDb.FindList<application>("select * from application").ToList();
-            List<LogEntity> list = this.mysqlDb.FindList<LogEntity>(t => t.Id < 100).ToList();
+            List<LogEntity> list = this.mysqlDb.FindList<LogEntity>(t => t.IsUntreatedException == false && t.Id < 100).ToList();
 
             return list;
         }
