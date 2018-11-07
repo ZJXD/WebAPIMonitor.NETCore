@@ -15,6 +15,7 @@
     <ProjectReference Include="..\DataBase\DataBase.csproj" />
     <ProjectReference Include="..\Mapping\Mapping.csproj" />
     <ProjectReference Include="..\Modules\Modules.csproj" />
+    <ProjectReference Include="..\Util.GeoTool\Util.GeoTool.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.BLL\WebAPIMonitor.NETCore.BLL.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.Models\WebAPIMonitor.NETCore.Models.csproj" />
   </ItemGroup>

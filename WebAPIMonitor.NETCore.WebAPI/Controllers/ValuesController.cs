@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DataBase.MySQL;
 using Microsoft.AspNetCore.Mvc;
+using Util.GeoTool;
 
 namespace WebAPIMonitor.NETCore.WebAPI.Controllers
 {
@@ -10,11 +12,34 @@ namespace WebAPIMonitor.NETCore.WebAPI.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly MySQLDatabase mysqlDb;
+
+        public ValuesController(MySQLDatabase mySQLDatabase)
+        {
+            this.mysqlDb = mySQLDatabase;
+        }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<Cluster>> Get()
         {
-            return new string[] { "value1", "value2" };
+            //return new string[] { "value1", "value2" };
+
+            string str_SQL = @"
+SELECT
+	DISTINCT(c.latitude) AS Latitude,c.longitude AS Longitude
+FROM
+	gps_history_coord c 
+WHERE
+	c.latitude IS NOT NULL 
+	AND c.latitude > 30 
+	AND c.satellite_time >= '2018-01-02 09:00:00'
+	AND c.satellite_time <= '2018-01-02 10:00:00' ";
+            List<Point> points = this.mysqlDb.FindList<Point>(str_SQL).ToList();
+
+            ClusterAnalysis clusterAnalysis = new ClusterAnalysis(points, 50);
+            var result = clusterAnalysis.StartAnalysis().Where(t => t.Points.Count > 1).ToList();
+            return result;
         }
 
         // GET api/values/5

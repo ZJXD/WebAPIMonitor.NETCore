@@ -82,8 +82,15 @@ namespace WebAPIMonitor.Test
                 //new Point { Latitude = 30.2702291, Longitude = 120.1754093 }
             };
 
-            SpaceCalculate spaceCalculate = new SpaceCalculate(exportPoints);
-            spaceCalculate.StartCalc();
+            //SpaceCalculate spaceCalculate = new SpaceCalculate(exportPoints);
+            //spaceCalculate.StartCalc();
+
+            #endregion
+
+            #region 聚类分析
+
+            ClusterAnalysis clusterAnalysis = new ClusterAnalysis(exportPoints, 2000);
+            clusterAnalysis.StartAnalysis();
 
             #endregion
         }
