@@ -24,26 +24,27 @@ namespace Util.GeoTool
         private const string Base32 = "0123456789bcdefghjkmnpqrstuvwxyz";
         private static readonly int[] Bits = new[] { 16, 8, 4, 2, 1 };
 
-        private static readonly string[][] Neighbors = {
-                                                           new[]
-                                                               {
-                                                                   "p0r21436x8zb9dcf5h7kjnmqesgutwvy", // Top
-                                                                   "bc01fg45238967deuvhjyznpkmstqrwx", // Right
-                                                                   "14365h7k9dcfesgujnmqp0r2twvyx8zb", // Bottom
-                                                                   "238967debc01fg45kmstqrwxuvhjyznp", // Left
-                                                               }, new[]
-                                                                      {
-                                                                          "bc01fg45238967deuvhjyznpkmstqrwx", // Top
-                                                                          "p0r21436x8zb9dcf5h7kjnmqesgutwvy", // Right
-                                                                          "238967debc01fg45kmstqrwxuvhjyznp", // Bottom
-                                                                          "14365h7k9dcfesgujnmqp0r2twvyx8zb", // Left
-                                                                      }
-                                                       };
+        private static readonly string[][] Neighbors ={
+            new[]
+            {
+                "p0r21436x8zb9dcf5h7kjnmqesgutwvy", // Top
+                "bc01fg45238967deuvhjyznpkmstqrwx", // Right
+                "14365h7k9dcfesgujnmqp0r2twvyx8zb", // Bottom
+                "238967debc01fg45kmstqrwxuvhjyznp", // Left
+            },
+            new[]
+            {
+                "bc01fg45238967deuvhjyznpkmstqrwx", // Top
+                "p0r21436x8zb9dcf5h7kjnmqesgutwvy", // Right
+                "238967debc01fg45kmstqrwxuvhjyznp", // Bottom
+                "14365h7k9dcfesgujnmqp0r2twvyx8zb", // Left
+            }
+        };
 
         private static readonly string[][] Borders = {
-                                                         new[] {"prxz", "bcfguvyz", "028b", "0145hjnp"},
-                                                         new[] {"bcfguvyz", "prxz", "0145hjnp", "028b"}
-                                                     };
+            new[] {"prxz", "bcfguvyz", "028b", "0145hjnp"},
+            new[] {"bcfguvyz", "prxz", "0145hjnp", "028b"}
+        };
 
         /// <summary>
         /// 计算相邻

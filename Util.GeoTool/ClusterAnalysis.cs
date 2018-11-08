@@ -10,9 +10,9 @@ namespace Util.GeoTool
     /// </summary>
     public class ClusterAnalysis
     {
-        private List<Point> points;
-        private double Radius;
-        private List<Cluster> clusters;
+        private List<Point> points;         // 要分析的点
+        private readonly double Radius;     // 聚类的半径
+        private List<Cluster> clusters;     // 聚集类的集合
 
         /// <summary>
         /// 构造函数
@@ -27,7 +27,7 @@ namespace Util.GeoTool
         }
 
         /// <summary>
-        /// 开始分析
+        /// 开始分析（分析对象是一组点，没有时间上的关联）
         /// </summary>
         /// <returns></returns>
         public List<Cluster> StartAnalysis()
@@ -47,8 +47,8 @@ namespace Util.GeoTool
             for (int i = 1; i < n; i++)
             {
                 double distance = Radius + 1;
-                int clusterIndex = 0;
-                // 对已有的进行遍历
+                int clusterIndex = 0;           // 存储距离最近的聚集类的索引
+                // 对已有的聚类进行遍历，找出最近的一个聚类
                 for (int j = 0; j < clusters.Count; j++)
                 {
                     double tempDistance = GeoDistance.GetDistance(clusters[j].CenterPoint, points[i]);

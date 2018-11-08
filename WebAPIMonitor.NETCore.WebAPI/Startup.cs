@@ -68,6 +68,7 @@ namespace WebAPIMonitor.NETCore.WebAPI
                     json.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
                 });
 
+            // 添加到依赖关系注入系统
             services.AddSignalR();
         }
 
@@ -97,6 +98,7 @@ namespace WebAPIMonitor.NETCore.WebAPI
             app.UseStaticFiles();
             app.UseHttpsRedirection();
 
+            // 添加到中间件管道
             app.UseSignalR(routes =>
             {
                 routes.MapHub<ChatHub>("/chatHub");
