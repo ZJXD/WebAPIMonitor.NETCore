@@ -12,6 +12,7 @@ namespace WebAPIMonitor.NETCore.WebAPI
 {
     public class Program
     {
+#pragma warning disable CS1591
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
@@ -20,6 +21,7 @@ namespace WebAPIMonitor.NETCore.WebAPI
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();   // 注册启动类
-        //.UseUrls("http://localhost:8000/", "http://localhost:9000") // 指定监听地址
+                                          //.UseUrls("http://localhost:8000/", "http://localhost:9000") // 指定监听地址
+#pragma warning disable CS1591
     }
 }

@@ -33,6 +33,10 @@ namespace WebAPIMonitor.NETCore.WebAPI.Controllers
         //    return userBLL.GetUser();
         //}
 
+        /// <summary>
+        /// 获取日志信息
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public List<LogEntity> GetApp()
         {

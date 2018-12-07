@@ -19,6 +19,10 @@ namespace WebAPIMonitor.NETCore.WebAPI.Controllers
             this.mysqlDb = mySQLDatabase;
         }
 
+        /// <summary>
+        /// 获取坐标
+        /// </summary>
+        /// <returns></returns>
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<Cluster>> Get()
@@ -42,8 +46,13 @@ WHERE
             return result;
         }
 
+        /// <summary>
+        /// 根据标识获取值
+        /// </summary>
+        /// <param name="id">标识</param>
+        /// <returns></returns>
         // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet("name/{id}")]
         public ActionResult<string> Get(int id)
         {
             return "value22222222";

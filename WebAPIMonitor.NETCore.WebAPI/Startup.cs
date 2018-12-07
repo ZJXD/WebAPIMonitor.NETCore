@@ -15,6 +15,7 @@ using Microsoft.EntityFrameworkCore;
 using WebAPIMonitor.NETCore.WebAPI.Hubs;
 using System.Reflection;
 using DataBase.MySQL;
+using System.IO;
 
 namespace WebAPIMonitor.NETCore.WebAPI
 {
@@ -49,6 +50,21 @@ namespace WebAPIMonitor.NETCore.WebAPI
 
             //services.Add(new ServiceDescriptor(typeof(MySQLDatabase), new MySQLDatabase(Configuration.GetConnectionString("LogContext"))));
             services.AddScoped(_ => new MySQLDatabase(Configuration.GetConnectionString("LogContext")));
+
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            // 注册 Swagger 生成器，定义一个或多个文档
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info {
+                    Title = "My API",
+                    Version = "v1",
+                });
+
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
+            });
 
             //集中注册服务
             Dictionary<Type, Type[]> classNames = GetClassName(new string[] { "WebAPIMonitor.NETCore.BLL" });
@@ -102,6 +118,16 @@ namespace WebAPIMonitor.NETCore.WebAPI
             app.UseSignalR(routes =>
             {
                 routes.MapHub<ChatHub>("/chatHub");
+            });
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            // 启用中间件将生产的 Swagger 作为 JSON 端点提供服务
+            app.UseSwagger();
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
+            // 启动中间件以提供 Swagger-ui，并指定 json端点
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json","My API v1");
             });
 
             app.UseMvc(config =>

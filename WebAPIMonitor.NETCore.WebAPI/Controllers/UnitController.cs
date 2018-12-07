@@ -20,6 +20,10 @@ namespace WebAPIMonitor.NETCore.WebAPI.Controllers
             this.unitBLL = unitBLL;
         }
 
+        /// <summary>
+        /// 获取部门
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public UnitDTO GetUnit()
         {
