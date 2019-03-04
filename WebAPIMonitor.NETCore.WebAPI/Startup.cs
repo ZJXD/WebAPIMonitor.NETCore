@@ -16,6 +16,7 @@ using WebAPIMonitor.NETCore.WebAPI.Hubs;
 using System.Reflection;
 using DataBase.MySQL;
 using System.IO;
+using DataBase;
 
 namespace WebAPIMonitor.NETCore.WebAPI
 {
@@ -50,13 +51,15 @@ namespace WebAPIMonitor.NETCore.WebAPI
 
             //services.Add(new ServiceDescriptor(typeof(MySQLDatabase), new MySQLDatabase(Configuration.GetConnectionString("LogContext"))));
             services.AddScoped(_ => new MySQLDatabase(Configuration.GetConnectionString("LogContext")));
+            SqlSugarDatabase.DBConnectionString = Configuration.GetConnectionString("LogContext");
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             // 注册 Swagger 生成器，定义一个或多个文档
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info {
-                    Title = "My API",
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
+                {
+                    Title = ".NET Core Test API",
                     Version = "v1",
                 });
 
@@ -67,7 +70,7 @@ namespace WebAPIMonitor.NETCore.WebAPI
             });
 
             //集中注册服务
-            Dictionary<Type, Type[]> classNames = GetClassName(new string[] { "WebAPIMonitor.NETCore.BLL" });
+            Dictionary<Type, Type[]> classNames = GetClassName(new string[] { "WebAPIMonitor.NETCore.BLL", "WebAPIMonitor.NETCore.Service" });
             foreach (var item in classNames)
             {
                 foreach (var typeArray in item.Value)
@@ -127,7 +130,7 @@ namespace WebAPIMonitor.NETCore.WebAPI
             // 启动中间件以提供 Swagger-ui，并指定 json端点
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json","My API v1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1");
             });
 
             app.UseMvc(config =>

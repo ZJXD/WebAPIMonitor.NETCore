@@ -20,7 +20,9 @@
     <ProjectReference Include="..\Modules\Modules.csproj" />
     <ProjectReference Include="..\Util.GeoTool\Util.GeoTool.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.BLL\WebAPIMonitor.NETCore.BLL.csproj" />
+    <ProjectReference Include="..\WebAPIMonitor.NETCore.IService\WebAPIMonitor.NETCore.IService.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.Models\WebAPIMonitor.NETCore.Models.csproj" />
+    <ProjectReference Include="..\WebAPIMonitor.NETCore.Service\WebAPIMonitor.NETCore.Service.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties libman_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>

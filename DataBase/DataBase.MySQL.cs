@@ -99,11 +99,11 @@ namespace DataBase.MySQL
             }
             catch (Exception ex)
             {
-                if (ex.InnerException != null && ex.InnerException.InnerException is MySqlException)
-                {
-                    MySqlException sqlEx = ex.InnerException.InnerException as MySqlException;
-                    throw new Exception(sqlEx.Message, sqlEx);
-                }
+                //if (ex.InnerException != null && ex.InnerException.InnerException is MySqlException)
+                //{
+                //    MySqlException sqlEx = ex.InnerException.InnerException as MySqlException;
+                //    throw new Exception(sqlEx.Message, sqlEx);
+                //}
                 throw;
             }
             finally

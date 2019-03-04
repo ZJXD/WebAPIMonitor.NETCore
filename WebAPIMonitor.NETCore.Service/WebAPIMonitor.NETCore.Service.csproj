@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataBase\DataBase.csproj" />
     <ProjectReference Include="..\WebAPIMonitor.NETCore.Entity\WebAPIMonitor.NETCore.Entity.csproj" />
-    <ProjectReference Include="..\WebAPIMonitor.NETCore.Models\WebAPIMonitor.NETCore.Models.csproj" />
+    <ProjectReference Include="..\WebAPIMonitor.NETCore.IService\WebAPIMonitor.NETCore.IService.csproj" />
   </ItemGroup>
 
 </Project>
