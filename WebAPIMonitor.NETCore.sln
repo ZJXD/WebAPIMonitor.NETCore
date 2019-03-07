@@ -66,6 +66,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIMonitor.NETCore.IService", "WebAPIMonitor.NETCore.IService\WebAPIMonitor.NETCore.IService.csproj", "{E3AAD629-4F29-4CFA-B2B1-E8E8E70AC644}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIMonitor.NETCore.Service", "WebAPIMonitor.NETCore.Service\WebAPIMonitor.NETCore.Service.csproj", "{F01850EC-027F-4541-BA73-80B4B9B802FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIMonitor.NETCore.AlipayDemo", "WebAPIMonitor.NETCore.AlipayDemo\WebAPIMonitor.NETCore.AlipayDemo.csproj", "{4ABA0F9B-F736-443B-A828-E09170FE270A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +178,10 @@ Global
 		{F01850EC-027F-4541-BA73-80B4B9B802FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F01850EC-027F-4541-BA73-80B4B9B802FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F01850EC-027F-4541-BA73-80B4B9B802FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABA0F9B-F736-443B-A828-E09170FE270A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABA0F9B-F736-443B-A828-E09170FE270A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABA0F9B-F736-443B-A828-E09170FE270A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABA0F9B-F736-443B-A828-E09170FE270A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -205,6 +210,7 @@ Global
 		{A99AA958-E626-43E1-88DC-B82C1E163DC2} = {68940556-DF68-4B21-9998-05E30BB7F922}
 		{E3AAD629-4F29-4CFA-B2B1-E8E8E70AC644} = {68940556-DF68-4B21-9998-05E30BB7F922}
 		{F01850EC-027F-4541-BA73-80B4B9B802FD} = {68940556-DF68-4B21-9998-05E30BB7F922}
+		{4ABA0F9B-F736-443B-A828-E09170FE270A} = {9DE7A017-29C8-41E7-9F5F-99E225DE8CB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E5F7C1DF-1884-48D4-978A-D7BCFA660D2A}
