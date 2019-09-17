@@ -28,7 +28,9 @@ namespace WebAPIMonitor.Test
             ///*获取中心点的geohash*/
             //String geohash = hash.Substring(0, geohashLen);
             ///*获取所有的矩形geohash， 一共是九个 ，包含中心点,打印顺序请参考参数*/
-            //String[] result = GeohashHelper.getGeoHashExpand(geohash);
+            String geohash = "wsvqhg";
+            String[] result = GeohashHelper.GetGeoHashExpand(geohash);
+            string s = string.Join(',', result);
             #endregion
 
             #region 求一组点的最大距离和最小距离
@@ -60,8 +62,10 @@ namespace WebAPIMonitor.Test
             #endregion
 
             #region 读取 POI CSV文件
-            StartRead();
+            //StartRead();
             #endregion
+
+            Console.Read();
         }
 
         //public void ConfigureServices(IServiceCollection ServiceCollection)
