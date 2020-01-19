@@ -182,7 +182,7 @@ namespace Util.GeoTool
         /// </summary>
         /// <param name="geohash"></param>
         /// <returns></returns>
-        public static String[] getGeoHashExpand(String geohash)
+        public static String[] GetGeoHashExpand(String geohash)
         {
 
             try
@@ -194,7 +194,6 @@ namespace Util.GeoTool
                 String geohashLeft = CalculateAdjacent(geohash, Direction.Left);//左
 
                 String geohashRight = CalculateAdjacent(geohash, Direction.Right);//右
-
 
                 String geohashTopLeft = CalculateAdjacent(geohashLeft, Direction.Top);//左上
 

@@ -11,8 +11,8 @@ namespace Util.GeoTool
     public class SpaceCalculate
     {
 
-        private List<Point> points;         // 要计算的点位
-        private int N;                      // 点的个数
+        private readonly List<Point> points;         // 要计算的点位
+        private readonly int N;                      // 点的个数
         private List<Point> clusterPoints;  // 聚类点集合
         private List<double> distance;      // 记录各个点到第一个聚类点的距离
         private double max1, max2;          // 用于取各个聚类点
