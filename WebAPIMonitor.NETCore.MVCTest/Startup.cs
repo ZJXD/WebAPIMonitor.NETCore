@@ -86,7 +86,7 @@ namespace WebAPIMonitor.NETCore.MVCTest
 
         //    app.Use(next =>
         //    {
-        //        return async context =>
+        //        return async context =>和你们
         //        {
         //            await context.Response.WriteAsync("<h1>I`m Middleware 3</h1>");
         //            await next(context);
